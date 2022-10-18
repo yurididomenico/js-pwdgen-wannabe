@@ -30,5 +30,9 @@ Infine scriviamo sulla pagina "la tua password insicurissima è: nomecognomecolo
 */
 
 let nome = prompt("Nome: ");
+let cognome = prompt("Cognome: ");
+
 console.log(nome);
+console.log(cognome);
 document.getElementById('nome').innerHTML = `Il tuo nome è ${nome}`;
+document.getElementById('cognome').innerHTML = `Il tuo cognome è ${cognome}`;
