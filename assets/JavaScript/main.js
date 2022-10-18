@@ -32,10 +32,13 @@ Infine scriviamo sulla pagina "la tua password insicurissima è: nomecognomecolo
 let nome = prompt("Nome: ");
 let cognome = prompt("Cognome: ");
 let colore = prompt("Colore preferito: ");
+let numero = prompt("Numero preferito: ");
 
 console.log(nome);
 console.log(cognome);
 console.log(colore);
+console.log(numero);
 document.getElementById('nome').innerHTML = `Il tuo nome è ${nome}`;
 document.getElementById('cognome').innerHTML = `Il tuo cognome è ${cognome}`;
 document.getElementById('colore').innerHTML = `Il tuo colore preferito è ${colore}`;
+document.getElementById('numero').innerHTML = `Il tuo numero preferito è ${numero}`;
